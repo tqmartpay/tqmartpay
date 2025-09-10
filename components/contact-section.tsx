@@ -40,7 +40,7 @@ export function ContactSection() {
                   <div>
                     <p className="font-semibold text-gray-900 dark:text-white">Office Address</p>
                     <p className="text-gray-600 dark:text-gray-300">
-                      TQPay Tower, 123 Tech Park<br />
+                      TAQUMART PRIVATE LIMITED Tower, 123 Tech Park<br />
                       Sector 62, Noida, UP 201301<br />
                       India
                     </p>

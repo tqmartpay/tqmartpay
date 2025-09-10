@@ -6,11 +6,17 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center animate-pulse-glow">
-                <span className="text-primary-foreground font-bold text-sm">TQ</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="relative">
+                <div className="w-10 h-10 bg-gradient-to-br from-primary via-secondary to-accent rounded-xl flex items-center justify-center shadow-lg animate-pulse-glow">
+                  <span className="text-primary-foreground font-bold text-sm">TM</span>
+                </div>
+                <div className="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full animate-bounce-gentle"></div>
               </div>
-              <span className="font-heading font-bold text-xl">TQPay</span>
+              <div className="flex flex-col">
+                <span className="font-heading font-bold text-xl text-foreground leading-tight">TAQUMART</span>
+                <span className="text-sm text-muted-foreground font-medium">PRIVATE LIMITED</span>
+              </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
               Your trusted partner for digital payments, recharges, and bill payments. Making financial transactions
@@ -94,7 +100,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
-          <p className="text-sm text-muted-foreground">© 2025 TQMartPay Private Limited. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2025 TAQUMART PRIVATE LIMITED. All rights reserved.</p>
         </div>
       </div>
     </footer>

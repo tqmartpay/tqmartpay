@@ -12,11 +12,17 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-7 h-7 sm:w-8 sm:h-8 bg-primary rounded-lg flex items-center justify-center animate-pulse-glow">
-              <span className="text-primary-foreground font-bold text-xs sm:text-sm">TQ</span>
+          <div className="flex items-center space-x-3">
+            <div className="relative">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-primary via-secondary to-accent rounded-xl flex items-center justify-center shadow-lg animate-pulse-glow">
+                <span className="text-primary-foreground font-bold text-sm sm:text-base">TM</span>
+              </div>
+              <div className="absolute -top-1 -right-1 w-4 h-4 bg-accent rounded-full animate-bounce-gentle"></div>
             </div>
-            <span className="font-heading font-bold text-lg sm:text-xl text-foreground">TQPay</span>
+            <div className="flex flex-col">
+              <span className="font-heading font-bold text-lg sm:text-xl text-foreground leading-tight">TAQUMART</span>
+              <span className="text-xs sm:text-sm text-muted-foreground font-medium">PRIVATE LIMITED</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

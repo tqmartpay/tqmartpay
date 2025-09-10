@@ -31,7 +31,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-base sm:text-lg text-muted-foreground mb-6 sm:mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-              Experience lightning-fast recharges, seamless bill payments, and secure financial services with TQPay -
+              Experience lightning-fast recharges, seamless bill payments, and secure financial services with TAQUMART PRIVATE LIMITED -
               your trusted partner for everyday financial needs.
             </p>
 
@@ -87,7 +87,7 @@ export function HeroSection() {
             <div className="relative z-10 animate-float">
               <img
                 src="/colorful-payment-app.png"
-                alt="TQPay Mobile App"
+                alt="TAQUMART PRIVATE LIMITED Mobile App"
                 className="w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto drop-shadow-2xl hover-lift"
               />
             </div>

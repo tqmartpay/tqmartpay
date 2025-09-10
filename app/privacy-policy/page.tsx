@@ -151,7 +151,7 @@ export default function PrivacyPolicyPage() {
                   If you have any questions about this Privacy Policy or our data practices, please contact us:
                 </p>
                 <div className="bg-muted/50 p-4 rounded-lg">
-                  <p className="font-semibold mb-2">TQMartPay Private Limited</p>
+                  <p className="font-semibold mb-2">TAQUMART PRIVATE LIMITED</p>
                   <p className="text-muted-foreground">Email: privacy@tqpay.com</p>
                   <p className="text-muted-foreground">Address: Noida, UP, India</p>
                 </div>

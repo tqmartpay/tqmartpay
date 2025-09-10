@@ -31,7 +31,7 @@ export function AboutSection() {
           <div className="relative">
             <Card className="overflow-hidden border-0 shadow-2xl">
               <CardContent className="p-0">
-                <img src="/colorful-payment-app.png" alt="TQPay Payment Platform" className="w-full h-auto" />
+                <img src="/colorful-payment-app.png" alt="TAQUMART PRIVATE LIMITED Payment Platform" className="w-full h-auto" />
               </CardContent>
             </Card>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-primary/20 rounded-full blur-xl"></div>

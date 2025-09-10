@@ -49,7 +49,7 @@ export function CompanyFAQs() {
           <div className="relative">
             <img
               src="/smartphone-payment-app.png"
-              alt="TQPay Mobile App"
+              alt="TAQUMART PRIVATE LIMITED Mobile App"
               className="w-full max-w-md mx-auto animate-float"
             />
           </div>

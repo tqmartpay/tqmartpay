@@ -31,7 +31,7 @@ export default function SignupPage() {
             <CardTitle className="text-2xl font-heading bg-gradient-to-r from-accent to-tertiary bg-clip-text text-transparent">
               Create Account
             </CardTitle>
-            <p className="text-muted-foreground">Join TQPay for seamless payments</p>
+            <p className="text-muted-foreground">Join TAQUMART  for seamless payments</p>
           </CardHeader>
           <CardContent className="space-y-6">
             <div className="grid grid-cols-2 gap-4">
